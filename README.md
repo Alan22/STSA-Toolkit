@@ -2,9 +2,10 @@
 
 Below are the steps for installing and guidelines for using the STSA toolkit. 
 
-Step 1: Download Toolkit
+## Step 1: Download Toolkit 
+Select the .mlapp installer file from this repo and click download (Currently "STSA_Toolkit_V1.mlappinstall")
 
-Step 2: Install Toolkit
+## Step 2: Install Toolkit 
 
 1. Open MATLAB (the app should work on most versions, but has not been tested on versions before MATLAB 2021a)
 2. Click the apps tab at the top of the MATLAB interface.
@@ -12,7 +13,7 @@ Step 2: Install Toolkit
 4. Select the STSA Toolkit MATLAB app installer file that you downloaded in Step 1 and click install in the window that appears.
 5. Click the "Install" button
 
-Step 3: Using the toolkit
+## Step 3: Using the toolkit 
 
 The STSA toolkit is designed to make the process of calculating the spatiotemporal index and non-linear alternatives (FDA/DTW indicies of amplitude and temporal variability) as easy as possible. 
 
@@ -24,6 +25,6 @@ Note 2: STI is calculated by default, click the FDA and DTW checkboxes if you wa
 Note: Repeatedly pressing this button will add repeated rows to the specified file.
 
 
-**Viewiing individual repetitions** Using the arrows in the center pannel you can navigate through the individual repetitions being analyzed. The selected repetition will be highlighted in the display plots. For audio data, you can use the play button to listen to the selected repetition. The app will also display the delta STI value which reflects how much the addition of the selected changes the STI value. Large positive values in this measure indicate outlying repetitions that may be skewing the analysis. 
+**Viewing individual repetitions** Using the arrows in the center pannel you can navigate through the individual repetitions being analyzed. The selected repetition will be highlighted in the display plots. For audio data, you can use the play button to listen to the selected repetition. The app will also display the delta STI value which reflects how much the addition of the selected changes the STI value. Large positive values in this measure indicate outlying repetitions that may be skewing the analysis. 
 
  
